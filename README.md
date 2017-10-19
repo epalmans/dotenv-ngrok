@@ -42,3 +42,5 @@ timeout 5 > NUL							& :: allow ngrok a little time to setup its tunnels
 
 php -f ngrok-dotenv-update.php "C:\path\to\myapp\.env"		& :: update .env
 ```
+
+Note: Make sure the location for ngrok.exe is set in your PATH environment variable.
